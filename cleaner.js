@@ -25,6 +25,8 @@
             console.log("eventListener");
         }
     });
+
+    MORE INFO https://github.com/damag-dev/timeout_cleaner
 */
 
 import { onBeforeUnmount, onMounted } from "vue";
