@@ -13,6 +13,6 @@ If the interval is not cleared when the component unmounts, the interval will co
 - **Unnecessary Computations**: The interval will keep executing its code, leading to potential performance issues.
 - **Unexpected Behavior**: If the interval interacts with the DOM or application state, it may cause errors or unexpected behavior after the component is no longer present.
 
-### Important
-This composable works great for single page components but it runs into issues when called from multiple locations at the same time
-#### Im looking for a fix
+VERSION 2.0
+1. Fixed problem with calling cleaner from multiple locations 
+2. Fixed bug with sometimes not registering "onMounted"
